@@ -1,0 +1,1 @@
+En nettside som henter en API og viser den i konsollen og nettleseren.

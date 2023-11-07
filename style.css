@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30ema;
+}
+
+/* Responsivt for mobil*/
+@media screen and (max-width: 480px) {
+    .p {
+        max-width: 300px;
+    }
+}
+
+/* Responsivt for nettbrett*/
+@media (max-width: 770px) {
+    .p {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .p {
+        max-width: 700px;
+    }
+}
