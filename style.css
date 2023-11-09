@@ -19,7 +19,7 @@ main {
     height: 30ema;
 }
 
-.bored_card {
+.pokemon_info {
     display: flex;
     flex-direction: column;
     justify-content: center;
