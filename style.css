@@ -8,6 +8,7 @@ header, footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #122c34;
     height: 10em;
 }
 
@@ -16,7 +17,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30ema;
+    height: 30em;
+    background-color: #0e4749;
 }
 
 .pokemon_info {
@@ -25,10 +27,14 @@ main {
     justify-content: center;
     align-items: center;
     width: 40%;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     padding: 20px;
     margin: 0;
+  }
+
+  .p {
+    color: white;
   }
 
 /* Responsivt for mobil*/
